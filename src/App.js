@@ -1,14 +1,14 @@
 import React from "react";
-import Posts from "./features/posts/Posts";
-import Comments from "./features/comments/Comments";
+import { Counter } from "./features/counter/Counter";
 
 function App() {
   return (
     <div className="App">
-      <h1>Posts</h1>
+      {/* <h1>Posts</h1>
       <Posts />
       <h1>Comments</h1>
-      <Comments />
+      <Comments /> */}
+      <Counter />
     </div>
   );
 }
